@@ -11,6 +11,7 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 1600,
     height: 900,
+    autoHideMenuBar: true,
     webPreferences: {
       devTools: false
     }
